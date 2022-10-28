@@ -1,0 +1,154 @@
+%\usepackage[cm-default]{fontspec}
+\usepackage{fontspec}
+\emfontdeclare{\itshape,\upshape,\itshape}
+\setmainfont{CMU Serif}
+\setsansfont{CMU Sans Serif}
+\setmonofont{CMU Typewriter Text}
+\usepackage{xunicode}
+\usepackage{xeCJK}\setCJKmainfont[BoldFont={MATHIST_BOLD_FONT},ItalicFont={MATHIST_ITALIC_FONT}]{MATHIST_MAIN_FONT}
+\setCJKsansfont{MATHIST_SANS_FONT}
+\setCJKmonofont{MATHIST_MONO_FONT} % 打印机字体, 一般用于 verbatim 之类的环境, 或者通过 \ttfamily 调用
+\newCJKfontfamily\fontfortheorem[BoldFont={MATHIST_THEOREM_BOLD_FONT},ItalicFont={MATHIST_THEOREM_ITALIC_FONT}]{MATHIST_THEOREM_MAIN_FONT} % 新定义用于定理环境的字体
+
+\usepackage{enumerate}
+
+\usepackage{amsthm}\newtheoremstyle{Theorem}{3pt}{3pt}{\fontfortheorem}{}{\bfseries}{}{1em}{}
+%\theoremstyle{Theorem} \newtheorem{Theorem}{定理}[section]%按节编号
+\theoremstyle{Theorem} \newtheorem{Theorem}{定理}[chapter]%按章编号
+\newtheoremstyle{Definition}{3pt}{3pt}{\fontfortheorem}{}{\bfseries}{}{1em}{}
+\theoremstyle{Definition} \newtheorem{Definition}[Theorem]{定义}
+\newtheoremstyle{Example}{3pt}{3pt}{\fontfortheorem}{}{\bfseries}{}{1em}{}
+\theoremstyle{Example} \newtheorem{Example}[Theorem]{例}
+\theoremstyle{Example} \newtheorem{Note}[Theorem]{注记}
+\theoremstyle{Theorem} \newtheorem{Lemma}[Theorem]{引理}
+\theoremstyle{Theorem} \newtheorem{Corollary}[Theorem]{推论}
+\theoremstyle{Theorem} \newtheorem{Proposition}[Theorem]{命题}
+\theoremstyle{Theorem} \newtheorem{Conjecture}[Theorem]{猜想}
+\theoremstyle{Theorem} \newtheorem{Fact}[Theorem]{事实}
+\theoremstyle{Example} \newtheorem{Problem}[Theorem]{问题}
+\theoremstyle{Example} \newtheorem{Exercise}[Theorem]{习题}
+\theoremstyle{Example} \newtheorem{Claim}[Theorem]{断言}
+
+\theoremstyle{Theorem} \newtheorem*{Theorem*}{定理}
+\theoremstyle{Definition} \newtheorem*{Definition*}{定义}
+\theoremstyle{Example} \newtheorem*{Example*}{例}
+\theoremstyle{Example} \newtheorem*{Note*}{注记}
+\theoremstyle{Theorem} \newtheorem*{Lemma*}{引理}
+\theoremstyle{Theorem} \newtheorem*{Corollary*}{推论}
+\theoremstyle{Theorem} \newtheorem*{Proposition*}{命题}
+\theoremstyle{Theorem} \newtheorem*{Conjecture*}{猜想}
+\theoremstyle{Theorem} \newtheorem*{Fact*}{事实}
+\theoremstyle{Example} \newtheorem*{Problem*}{问题}
+\theoremstyle{Example} \newtheorem*{Exercise*}{习题}
+\theoremstyle{Example} \newtheorem*{Claim*}{断言}
+
+% 致谢环境
+\theoremstyle{Example} \newtheorem*{Acknowledgements}{致谢}
+
+% 证明与提示
+\newenvironment{Proof}[1][证明]
+{\noindent\normalfont {\bfseries #1}\hphantom{空}}{\hfill\ensuremath{\square}}
+
+\newenvironment{HINT}[1][提示]{\noindent\normalfont {\bfseries #1}\hphantom{空}}{\hfill\ensuremath{\square}}
+
+
+
+%格式化引用
+
+\usepackage{prettyref}
+
+\newrefformat{Theorem}{定理~\ref{#1}~}
+\newrefformat{Definition}{定义~\ref{#1}~}
+\newrefformat{Example}{例~\ref{#1}~}
+\newrefformat{Remark}{注记~\ref{#1}~}
+\newrefformat{Lemma}{引理~\ref{#1}~}
+\newrefformat{Corollary}{推论~\ref{#1}~}
+\newrefformat{Proposition}{命题~\ref{#1}~}
+\newrefformat{Conjecture}{猜想~\ref{#1}~}
+\newrefformat{Fact}{事实~\ref{#1}~}
+\newrefformat{Problem}{问题~\ref{#1}~}
+\newrefformat{Exercise}{习题~\ref{#1}~}
+\newrefformat{Claim}{断言~\ref{#1}~}
+\newrefformat{Picture}{图~\ref{#1}~}
+\newrefformat{fig}{图~\ref{#1}~}
+\newrefformat{tab}{表~\ref{#1}~}
+\newrefformat{fn}{第~\pageref{#1}~页的脚注~\ref{#1}~}
+\newrefformat{part}{第~\ref{#1}~部分}
+\newrefformat{chap}{第~\ref{#1}~章}
+\newrefformat{sec}{~\ref{#1}~节}
+\newrefformat{sub}{~\ref{#1}~小节}
+\newrefformat{subsec}{~\ref{#1}~小节}
+
+
+\usepackage{caption}
+\renewcommand{\fnum@figure}{图~\thefigure}
+
+\renewcommand{\tablename}{表}
+
+%\renewcommand{\abstractname}{摘要}
+\renewcommand{\contentsname}{目\quad 录}
+\renewcommand{\indexname}{索\quad 引}
+
+\ifx\nomname\undefined
+\else
+\renewcommand{\nomname}{符号表}
+\fi
+
+\ifx\pagedeclaration\undefined
+\else
+\renewcommand{\pagedeclaration}[1]{, 在第~#1~页}
+\fi
+
+
+%收集摘要
+\newenvironment{Abstract_mathist}[5]{\noindent\normalfont {\bfseries 标题:} #1\\
+	\noindent {\bfseries 作者:} #2\\
+	\noindent {\bfseries 日期:} #3 | {\bfseries 编号:} #4\\
+	\noindent {\bfseries 关键词:} #5
+	
+	\noindent {\bfseries 摘要:} }{
+		
+		}
+
+% 允许行间公式跨页, 参数为 1,2,3,4 的一个, 越大则越可能跨页
+\allowdisplaybreaks[1]
+
+% 显示用于交叉引用的标签名, 这里的宏包应该最后加载
+% \usepackage[notref,notcite]{showkeys} % 旧的解法
+% 现在用 showlabels 宏包, 注意它不兼容 multicol, wrapfig 等宏包.
+\ifx\DoNotUseShowlabels\undefined
+\usepackage[left]{showlabels}
+\else
+\fi
+
+% 修改页面背景色
+% 默认的白底黑字适合明亮的环境, 当然很明亮也不行, 毕竟主要用的是衬线字体. 下面这个设置适合较暗的环境, 例如阴天.
+%\usepackage{color}
+%\definecolor{page_backgroundcolor}{rgb}{0.992188, 0.964844, 0.890625}
+%\pagecolor{page_backgroundcolor}
+
+% 定义数学宏
+\input{MATHIST_DOCUMENT_PATH/Other/MathMacros/MathMacros.tex}
+
+% 全局设定浮动项的位置
+\usepackage{newfloat}
+\SetupFloatingEnvironment{figure}{placement=htb}
+\SetupFloatingEnvironment{table}{placement=htb}
+
+% 手动载入某些宏包
+\usepackage{mathtools}
+\usepackage{tikz}
+\usepackage{multicol}
+
+% 让 url 断行
+\def\UrlAlphabet{%
+	\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
+	\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
+	\do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D%
+	\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
+	\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
+	\do\Y\do\Z}
+\def\UrlDigits{\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9\do\0}
+\g@addto@macro{\UrlBreaks}{\UrlOrds}
+\g@addto@macro{\UrlBreaks}{\UrlAlphabet}
+\g@addto@macro{\UrlBreaks}{\UrlDigits}

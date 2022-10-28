@@ -1,0 +1,37 @@
+@startuml
+' -----------------------------------------------------
+skinparam defaultTextAlignment center
+' -----------------------------------------------------
+scale 2
+
+package "LyXTemplate" <<本项目文件夹>> {
+package "7" <<第1部分: 概览>> {
+package "70" <<第1部分的第1章>> {
+file "<b>70.lyx</b>\n 第1部分第1章的文档, 可单独编译为pdf" as 70.lyx
+package "picture" <<第1部分第1章的图片>> #aliceblue;line:blue;line.dotted
+}
+}
+
+package "新的部分" #aliceblue;line:blue;line.dotted {
+package "新章" #aliceblue;line:blue;line.dotted {
+file "新章.lyx" #aliceblue;line:blue;line.dotted
+package "picture " #aliceblue;line:blue;line.dotted
+}
+}
+
+package "template" {
+package "template " {
+file "template.lyx"
+file "template_english.lyx"
+}
+}
+
+file "LearningMath.lyx" {
+card "包含: 新章.lyx" as c #aliceblue;line:blue;line.dotted
+}
+}
+
+template.lyx --> 新章.lyx : 复制到
+新章.lyx --o c : 添加为子文档
+
+@enduml

@@ -1,0 +1,16 @@
+<ipestyle name="ctex">
+<preamble>
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{ctex}
+\usepackage{fontspec}
+\emfontdeclare{\itshape,\upshape,\itshape}
+\setmainfont{CMU Serif}
+\setsansfont{CMU Sans Serif}
+\setmonofont{CMU Typewriter Text}
+\usepackage{xunicode}
+\usepackage{xeCJK}\setCJKmainfont[BoldFont={方正悠黑_508R},ItalicFont={楷体}]{宋体}
+\setCJKsansfont{方正悠黑_503L}
+\setCJKmonofont{仿宋}
+</preamble>
+</ipestyle>

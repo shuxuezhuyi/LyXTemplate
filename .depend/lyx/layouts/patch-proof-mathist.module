@@ -1,0 +1,28 @@
+#\DeclareLyXModule{patch-proof-mathist}
+#DescriptionBegin
+#proof environment
+#DescriptionEnd
+# Author : mathist
+
+Format 66
+
+Provides stdinsets 1
+
+InsetLayout Flex:ProofAsInset
+   LyXType     custom
+   LatexName   proof
+   LatexType   Environment
+   Decoration  classic
+   Argument 1
+     LabelString         "Proof Name"
+   EndArgument
+   BgColor background
+   MultiPar    true
+   LabelString Proof
+End
+
+InsetLayout Flex:HINTAsInset
+   CopyStyle   Flex:ProofAsInset
+   LatexName   HINT
+   LabelString HINT
+End

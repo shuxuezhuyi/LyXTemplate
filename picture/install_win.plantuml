@@ -1,0 +1,109 @@
+@startuml
+' -----------------------------------------------------
+skinparam defaultTextAlignment center
+' -----------------------------------------------------
+'top to bottom direction
+left to right direction
+scale 2
+
+file "install_win.bat"
+file "install_win.py" {
+card "步骤1"
+card "步骤2"
+card "<b>步骤3</b> \n 找到 lyx.exe \n 重配置 LyX" as 步骤3
+card "步骤4"
+card "步骤5"
+card "步骤6"
+card "步骤7"
+card "步骤8"
+card "步骤9"
+}
+file "<b>config.ini</b> \n 项目绝对路径与字体" as config.ini #aliceblue;line:blue;line.dotted
+frame "导言" #line:blue;line.dotted {
+file "preamble.tex" #aliceblue;line:blue;line.dotted
+file "preamble_english.tex" #aliceblue;line:blue;line.dotted
+}
+file "ipe.py"
+frame "遍历本项目所有文件" {
+file "every.ipe"
+file "corresponding.pdf" #aliceblue;line:blue;line.dotted
+}
+file "LearningMath.lyx"
+file "LearningMath.pdf" #aliceblue;line:blue;line.dotted
+
+package "tools" {
+file "install_ipe.py"
+file "mathmacros.py"
+file "<b>pre_config.py</b> \n 若 config.ini 不存在, 则创建一个" as pre_config.py
+file "pre_preamble.py"
+file "template.py"
+file "zhmakeindex.py"
+file "ipe-7.2.26-win64.zip" as ipe.zip #aliceblue;line:blue;line.dotted
+package "ipe" #aliceblue;line:blue;line.dotted
+package "downloads" #aliceblue;line:blue;line.dotted {
+file "zhmakeindex.zip" #aliceblue;line:blue;line.dotted
+}
+package "external" #aliceblue;line:blue;line.dotted {
+package "zhmakeindex" #aliceblue;line:blue;line.dotted
+}
+package "pre_documents" {
+file "pre_preamble.tex"
+file "pre_preamble_english.tex"
+}
+}
+
+package ".depend/lyx/layouts" {
+file "theorems-ams-mathist.inc等" as origin.inc
+}
+package "用户文件夹/AppData/Roaming/LyX2.3" {
+package "layouts" <<通常是空文件夹>> {
+file "theorems-ams-mathist.inc等" as copy.inc #aliceblue;line:blue;line.dotted
+}
+file "preferences"
+}
+
+cloud "中科大开源镜像站" as ustc
+cloud "GitHub"
+
+package "Other/MathMacros" {
+file "MathMacros.lyx"
+file "MathMacros.tex" #aliceblue;line:blue;line.dotted
+}
+
+install_win.bat --> install_win.py #red;line.bold : 调用
+步骤1 --> pre_config.py #red;line.bold
+pre_config.py --> config.ini #blue
+config.ini --> 步骤2 #red;line.bold
+步骤2 --> origin.inc #blue
+origin.inc --> copy.inc #blue : 复制到
+copy.inc --> 步骤3 #red;line.bold
+步骤3 --> 步骤4 #red;line.bold
+步骤4 --> zhmakeindex.py #red;line.bold
+zhmakeindex.py --> ustc #blue
+ustc --> zhmakeindex.zip  #blue
+zhmakeindex.zip --> zhmakeindex #blue
+zhmakeindex --> preferences #blue
+preferences --> 步骤5 #red;line.bold
+步骤5 --> pre_preamble.py #red;line.bold
+pre_preamble.py --> 导言 #blue
+preamble.tex o-- config.ini #green
+preamble.tex *-- pre_preamble.tex #green
+preamble_english.tex o-- config.ini #green
+preamble_english.tex *-- pre_preamble_english.tex #green
+导言 --> 步骤6 #red;line.bold
+步骤6 --> mathmacros.py #red;line.bold
+mathmacros.py --> MathMacros.lyx #blue
+MathMacros.lyx --> MathMacros.tex #blue
+MathMacros.tex --> 步骤7 #red;line.bold
+步骤7 --> install_ipe.py #red;line.bold
+install_ipe.py --> GitHub #blue
+GitHub --> ipe.zip #blue
+ipe.zip --> ipe #blue
+ipe --> 步骤8 #red;line.bold
+步骤8 --> ipe.py #red;line.bold
+ipe.py --> every.ipe #blue
+every.ipe --> corresponding.pdf #blue
+corresponding.pdf --> 步骤9 #red;line.bold
+步骤9 --> LearningMath.lyx #red;line.bold
+LearningMath.lyx --> LearningMath.pdf #blue
+@enduml

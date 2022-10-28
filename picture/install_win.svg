@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   contentScriptType="application/ecmascript"
+   contentStyleType="text/css"
+   height="3586px"
+   preserveAspectRatio="none"
+   style="width:3210px;height:3586px;"
+   version="1.1"
+   viewBox="0 0 3210 3586"
+   width="3210px"
+   zoomAndPan="magnify"
+   id="svg409"
+   sodipodi:docname="install_win.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata413">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3840"
+     inkscape:window-height="2070"
+     id="namedview411"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="1513.534"
+     inkscape:cy="445.4317"
+     inkscape:window-x="0"
+     inkscape:window-y="41"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg409"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs11">
+    <filter
+       height="300%"
+       id="f11afy6burk3eh"
+       width="300%"
+       x="-1"
+       y="-1">
+      <feGaussianBlur
+         result="blurOut"
+         stdDeviation="4.0"
+         id="feGaussianBlur2" />
+      <feColorMatrix
+         in="blurOut"
+         result="blurOut2"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"
+         id="feColorMatrix4" />
+      <feOffset
+         dx="8.0"
+         dy="8.0"
+         in="blurOut2"
+         result="blurOut3"
+         id="feOffset6" />
+      <feBlend
+         in="SourceGraphic"
+         in2="blurOut3"
+         mode="normal"
+         id="feBlend8" />
+    </filter>
+  </defs>
+  <polygon
+     fill="#ffffff"
+     filter="url(#f11afy6burk3eh)"
+     points="2259,1605 2259,543 2239,523 1525,523 1525,1605 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon13" />
+  <path
+     d="m 2239,523 v 20 h 20"
+     fill="#ffffff"
+     style="stroke:#000000;stroke-width:3"
+     id="path15" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="210"
+     x="1787"
+     y="552.99017"
+     id="text17">install_win.py</text>
+  <rect
+     fill="#ffffff"
+     filter="url(#f11afy6burk3eh)"
+     height="386"
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     width="430"
+     x="764"
+     y="2989"
+     id="rect19" />
+  <path
+     d="m 840,2991 v 16.5938 l -20,20 h -56"
+     fill="none"
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="path21" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="56"
+     x="770"
+     y="3016.9902"
+     id="text23">导言</text>
+  <rect
+     fill="#ffffff"
+     filter="url(#f11afy6burk3eh)"
+     height="174"
+     style="stroke:#000000;stroke-width:3"
+     width="701"
+     x="2487"
+     y="49"
+     id="rect25" />
+  <path
+     d="m 2759,51 v 16.5938 l -20,20 h -252"
+     fill="none"
+     style="stroke:#000000;stroke-width:3"
+     id="path27" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="252"
+     x="2493"
+     y="76.990196"
+     id="text29">遍历本项目所有文件</text>
+  <polygon
+     fill="#ffffff"
+     filter="url(#f11afy6burk3eh)"
+     points="1498,1769.5938 2368,1769.5938 2368,3419 1394,3419 1394,1725 1484,1725 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon31" />
+  <line
+     style="stroke:#000000;stroke-width:3"
+     x1="1394"
+     x2="1498"
+     y1="1769.5938"
+     y2="1769.5938"
+     id="line33" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="78"
+     x="1402"
+     y="1754.9902"
+     id="text35">tools</text>
+  <polygon
+     fill="#f0f8ff"
+     filter="url(#f11afy6burk3eh)"
+     points="1701,2227.5938 1839,2227.5938 1839,2357 1503,2357 1503,2183 1687,2183 "
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="polygon37" />
+  <line
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     x1="1503"
+     x2="1701"
+     y1="2227.5938"
+     y2="2227.5938"
+     id="line39" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="172"
+     x="1511"
+     y="2212.9902"
+     id="text41">downloads</text>
+  <polygon
+     fill="#f0f8ff"
+     filter="url(#f11afy6burk3eh)"
+     points="2144,2071.5938 2320,2071.5938 2320,2209 1988,2209 1988,2027 2130,2027 "
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="polygon43" />
+  <line
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     x1="1988"
+     x2="2144"
+     y1="2071.5938"
+     y2="2071.5938"
+     id="line45" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="130"
+     x="1996"
+     y="2056.9902"
+     id="text47">external</text>
+  <polygon
+     fill="#ffffff"
+     filter="url(#f11afy6burk3eh)"
+     points="1712,3005.5938 1900,3005.5938 1900,3277 1442,3277 1442,2961 1698,2961 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon49" />
+  <line
+     style="stroke:#000000;stroke-width:3"
+     x1="1442"
+     x2="1712"
+     y1="3005.5938"
+     y2="3005.5938"
+     id="line51" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="244"
+     x="1450"
+     y="2990.9902"
+     id="text53">pre_documents</text>
+  <polygon
+     fill="#ffffff"
+     filter="url(#f11afy6burk3eh)"
+     points="378,847.5938 538,847.5938 538,977 44,977 44,803 364,803 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon55" />
+  <line
+     style="stroke:#000000;stroke-width:3"
+     x1="44"
+     x2="378"
+     y1="847.59381"
+     y2="847.59381"
+     id="line57" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="308"
+     x="52"
+     y="832.99017"
+     id="text59">.depend/lyx/layouts</text>
+  <polygon
+     fill="#ffffff"
+     filter="url(#f11afy6burk3eh)"
+     points="1252,957.5938 1274,957.5938 1274,1347 684,1347 684,913 1238,913 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon61" />
+  <line
+     style="stroke:#000000;stroke-width:3"
+     x1="684"
+     x2="1252"
+     y1="957.59381"
+     y2="957.59381"
+     id="line63" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="542"
+     x="692"
+     y="942.99017"
+     id="text65">用户文件夹/AppData/Roaming/LyX2.3</text>
+  <polygon
+     fill="#ffffff"
+     filter="url(#f11afy6burk3eh)"
+     points="872,1043.5938 1226,1043.5938 1226,1205 732,1205 732,999 858,999 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon67" />
+  <line
+     style="stroke:#000000;stroke-width:3"
+     x1="732"
+     x2="872"
+     y1="1043.5938"
+     y2="1043.5938"
+     id="line69" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="114"
+     x="740"
+     y="1028.9902"
+     id="text71">layouts</text>
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-style="italic"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="232"
+     x="871"
+     y="1073.584"
+     id="text73">«通常是空文件夹»</text>
+  <polygon
+     fill="#ffffff"
+     filter="url(#f11afy6burk3eh)"
+     points="450,1577.5938 1140,1577.5938 1140,1707 134,1707 134,1533 436,1533 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon75" />
+  <line
+     style="stroke:#000000;stroke-width:3"
+     x1="134"
+     x2="450"
+     y1="1577.5938"
+     y2="1577.5938"
+     id="line77" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="290"
+     x="142"
+     y="1562.9902"
+     id="text79">Other/MathMacros</text>
+  <rect
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     height="44.5938"
+     style="stroke:#000000;stroke-width:3"
+     width="114"
+     x="1614"
+     y="647"
+     id="rect81" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="74"
+     x="1634"
+     y="678.99017"
+     id="text83">步骤1</text>
+  <rect
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     height="44.5938"
+     style="stroke:#000000;stroke-width:3"
+     width="114"
+     x="1614"
+     y="761"
+     id="rect85" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="74"
+     x="1634"
+     y="792.99017"
+     id="text87">步骤2</text>
+  <rect
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     height="109.7813"
+     style="stroke:#000000;stroke-width:3"
+     width="196"
+     x="1573"
+     y="1104"
+     id="rect89" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="76"
+     x="1633"
+     y="1135.9902"
+     id="text91">步骤3</text>
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="156"
+     x="1593"
+     y="1168.584"
+     id="text93">找到 lyx.exe</text>
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="138"
+     x="1602"
+     y="1201.1777"
+     id="text95">重配置 LyX</text>
+  <rect
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     height="44.5938"
+     style="stroke:#000000;stroke-width:3"
+     width="114"
+     x="2097"
+     y="1203"
+     id="rect97" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="74"
+     x="2117"
+     y="1234.9902"
+     id="text99">步骤4</text>
+  <rect
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     height="44.5938"
+     style="stroke:#000000;stroke-width:3"
+     width="114"
+     x="1614"
+     y="875"
+     id="rect101" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="74"
+     x="1634"
+     y="906.99017"
+     id="text103">步骤5</text>
+  <rect
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     height="44.5938"
+     style="stroke:#000000;stroke-width:3"
+     width="114"
+     x="1614"
+     y="1513"
+     id="rect105" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="74"
+     x="1634"
+     y="1544.9902"
+     id="text107">步骤6</text>
+  <rect
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     height="44.5938"
+     style="stroke:#000000;stroke-width:3"
+     width="114"
+     x="1614"
+     y="1399"
+     id="rect109" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="74"
+     x="1634"
+     y="1430.9902"
+     id="text111">步骤7</text>
+  <rect
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     height="44.5938"
+     style="stroke:#000000;stroke-width:3"
+     width="114"
+     x="1614"
+     y="1285"
+     id="rect113" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="74"
+     x="1634"
+     y="1316.9902"
+     id="text115">步骤8</text>
+  <rect
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     height="44.5938"
+     style="stroke:#000000;stroke-width:3"
+     width="114"
+     x="1614"
+     y="989"
+     id="rect117" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="74"
+     x="1634"
+     y="1020.9902"
+     id="text119">步骤9</text>
+  <polygon
+     fill="#f0f8ff"
+     filter="url(#f11afy6burk3eh)"
+     points="1089,3327.5938 1089,3275 1069,3255 869,3255 869,3327.5938 "
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="polygon121" />
+  <path
+     d="m 1069,3255 v 20 h 20"
+     fill="#f0f8ff"
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="path123" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="180"
+     x="889"
+     y="3300.9902"
+     id="text125">preamble.tex</text>
+  <polygon
+     fill="#f0f8ff"
+     filter="url(#f11afy6burk3eh)"
+     points="1146,3185.5938 1146,3133 1126,3113 812,3113 812,3185.5938 "
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="polygon127" />
+  <path
+     d="m 1126,3113 v 20 h 20"
+     fill="#f0f8ff"
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="path129" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="294"
+     x="832"
+     y="3158.9902"
+     id="text131">preamble_english.tex</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="2683,191.5938 2683,139 2663,119 2519,119 2519,191.5938 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon133" />
+  <path
+     d="m 2663,119 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path135" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="124"
+     x="2539"
+     y="164.9902"
+     id="text137">every.ipe</text>
+  <polygon
+     fill="#f0f8ff"
+     filter="url(#f11afy6burk3eh)"
+     points="3156,191.5938 3156,139 3136,119 2862,119 2862,191.5938 "
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="polygon139" />
+  <path
+     d="m 3136,119 v 20 h 20"
+     fill="#f0f8ff"
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="path141" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="254"
+     x="2882"
+     y="164.9902"
+     id="text143">corresponding.pdf</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="1778,1867.5938 1778,1815 1758,1795 1564,1795 1564,1867.5938 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon145" />
+  <path
+     d="m 1758,1795 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path147" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="174"
+     x="1584"
+     y="1840.9902"
+     id="text149">install_ipe.py</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="1797,2151.5938 1797,2099 1777,2079 1545,2079 1545,2151.5938 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon151" />
+  <path
+     d="m 1777,2079 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path153" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="212"
+     x="1565"
+     y="2124.9902"
+     id="text155">mathmacros.py</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="1894,2643.1875 1894,2558 1874,2538 1448,2538 1448,2643.1875 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon163" />
+  <path
+     d="m 1874,2538 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path165" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="214"
+     x="1564"
+     y="2583.9902"
+     id="text167">pre_config.py</text>
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="406"
+     x="1468"
+     y="2616.584"
+     id="text169">若 config.ini 不存在, 则创建一个</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="1806,3387.5938 1806,3335 1786,3315 1536,3315 1536,3387.5938 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon171" />
+  <path
+     d="m 1786,3315 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path173" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="230"
+     x="1556"
+     y="3360.9902"
+     id="text175">pre_preamble.py</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="1772,2929.5938 1772,2877 1752,2857 1570,2857 1570,2929.5938 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon177" />
+  <path
+     d="m 1752,2857 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path179" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="162"
+     x="1590"
+     y="2902.9902"
+     id="text181">template.py</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="1803,2787.5938 1803,2735 1783,2715 1539,2715 1539,2787.5938 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon183" />
+  <path
+     d="m 1783,2715 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path185" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="224"
+     x="1559"
+     y="2760.9902"
+     id="text187">zhmakeindex.py</text>
+  <polygon
+     fill="#f0f8ff"
+     filter="url(#f11afy6burk3eh)"
+     points="1831,2009.5938 1831,1957 1811,1937 1511,1937 1511,2009.5938 "
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="polygon189" />
+  <path
+     d="m 1811,1937 v 20 h 20"
+     fill="#f0f8ff"
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="path191" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="280"
+     x="1531"
+     y="1982.9902"
+     id="text193">ipe-7.2.26-win64.zip</text>
+  <polygon
+     fill="#f0f8ff"
+     filter="url(#f11afy6burk3eh)"
+     points="2174,1908.5938 2208,1908.5938 2208,1942.5938 2100,1942.5938 2100,1864 2160,1864 "
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="polygon195" />
+  <line
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     x1="2100"
+     x2="2174"
+     y1="1908.5938"
+     y2="1908.5938"
+     id="line197" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="48"
+     x="2108"
+     y="1895.9902"
+     id="text199">ipe</text>
+  <polygon
+     fill="#f0f8ff"
+     filter="url(#f11afy6burk3eh)"
+     points="1807,2325.5938 1807,2273 1787,2253 1535,2253 1535,2325.5938 "
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="polygon201" />
+  <path
+     d="m 1787,2253 v 20 h 20"
+     fill="#f0f8ff"
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="path203" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="232"
+     x="1555"
+     y="2298.9902"
+     id="text205">zhmakeindex.zip</text>
+  <polygon
+     fill="#f0f8ff"
+     filter="url(#f11afy6burk3eh)"
+     points="2254,2142.5938 2288,2142.5938 2288,2176.5938 2020,2176.5938 2020,2098 2240,2098 "
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="polygon207" />
+  <line
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     x1="2020"
+     x2="2254"
+     y1="2142.5938"
+     y2="2142.5938"
+     id="line209" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="208"
+     x="2028"
+     y="2129.9902"
+     id="text211">zhmakeindex</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="1811,3245.5938 1811,3193 1791,3173 1531,3173 1531,3245.5938 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon213" />
+  <path
+     d="m 1791,3173 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path215" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="240"
+     x="1551"
+     y="3218.9902"
+     id="text217">pre_preamble.tex</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="1868,3103.5938 1868,3051 1848,3031 1474,3031 1474,3103.5938 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon219" />
+  <path
+     d="m 1848,3031 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path221" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="354"
+     x="1494"
+     y="3076.9902"
+     id="text223">pre_preamble_english.tex</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="506,945.5938 506,893 486,873 76,873 76,945.5938 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon225" />
+  <path
+     d="m 486,873 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path227" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="390"
+     x="96"
+     y="918.99017"
+     id="text229">theorems-ams-mathist.inc等</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="1083,1315.5938 1083,1263 1063,1243 875,1243 875,1315.5938 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon231" />
+  <path
+     d="m 1063,1243 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path233" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="168"
+     x="895"
+     y="1288.9902"
+     id="text235">preferences</text>
+  <polygon
+     fill="#f0f8ff"
+     filter="url(#f11afy6burk3eh)"
+     points="1194,1173.5938 1194,1121 1174,1101 764,1101 764,1173.5938 "
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="polygon237" />
+  <path
+     d="m 1174,1101 v 20 h 20"
+     fill="#f0f8ff"
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="path239" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="390"
+     x="784"
+     y="1146.9902"
+     id="text241">theorems-ams-mathist.inc等</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="416,1675.5938 416,1623 396,1603 166,1603 166,1675.5938 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon243" />
+  <path
+     d="m 396,1603 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path245" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="210"
+     x="186"
+     y="1648.9902"
+     id="text247">MathMacros.lyx</text>
+  <polygon
+     fill="#f0f8ff"
+     filter="url(#f11afy6burk3eh)"
+     points="1108,1675.5938 1108,1623 1088,1603 850,1603 850,1675.5938 "
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="polygon249" />
+  <path
+     d="m 1088,1603 v 20 h 20"
+     fill="#f0f8ff"
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="path251" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="218"
+     x="870"
+     y="1648.9902"
+     id="text253">MathMacros.tex</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="1094,613.5938 1094,561 1074,541 864,541 864,613.5938 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon255" />
+  <path
+     d="m 1074,541 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path257" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="190"
+     x="884"
+     y="586.99017"
+     id="text259">install_win.bat</text>
+  <polygon
+     fill="#f0f8ff"
+     filter="url(#f11afy6burk3eh)"
+     points="1817,3563.1875 1817,3478 1797,3458 1525,3458 1525,3563.1875 "
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="polygon261" />
+  <path
+     d="m 1797,3458 v 20 h 20"
+     fill="#f0f8ff"
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="path263" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     font-weight="bold"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="144"
+     x="1599"
+     y="3503.9902"
+     id="text265">config.ini</text>
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="252"
+     x="1545"
+     y="3536.584"
+     id="text267">项目绝对路径与字体</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="2215,191.5938 2215,139 2195,119 2093,119 2093,191.5938 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon269" />
+  <path
+     d="m 2195,119 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path271" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="82"
+     x="2113"
+     y="164.9902"
+     id="text273">ipe.py</text>
+  <polygon
+     fill="#fefece"
+     filter="url(#f11afy6burk3eh)"
+     points="2288,475.5938 2288,423 2268,403 2020,403 2020,475.5938 "
+     style="stroke:#000000;stroke-width:3"
+     id="polygon275" />
+  <path
+     d="m 2268,403 v 20 h 20"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path277" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="228"
+     x="2040"
+     y="448.9902"
+     id="text279">LearningMath.lyx</text>
+  <polygon
+     fill="#f0f8ff"
+     filter="url(#f11afy6burk3eh)"
+     points="2740,475.5938 2740,423 2720,403 2462,403 2462,475.5938 "
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="polygon281" />
+  <path
+     d="m 2720,403 v 20 h 20"
+     fill="#f0f8ff"
+     style="stroke:#0000ff;stroke-width:2;stroke-dasharray:1, 3"
+     id="path283" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="238"
+     x="2482"
+     y="448.9902"
+     id="text285">LearningMath.pdf</text>
+  <path
+     d="m 856.2745,2605.846 c 7.3223,-12.4133 17.7955,-13.4467 25.8575,-0.7619 7.5724,-11.3156 14.839,-9.8495 22.3585,0.056 6.5368,-14.9007 18.8803,-13.2298 27.7857,-2.5753 7.4919,-13.1627 15.9472,-11.6016 25.2926,-2.0653 6.9587,-10.8176 18.3424,-10.6438 24.2026,1.1747 8.7813,-10.5048 18.4469,-12.0098 26.624,0.6931 6.9308,-11.1918 14.4995,-9.0086 21.2088,0.2299 10.0124,-13.5594 19.0851,-11.4907 28.1218,1.0511 8.1268,-13.2897 19.5483,-9.7807 26.1358,1.6289 6.6205,-11.1484 17.4786,-13.1437 24.0573,0.041 19.1139,2.4428 27.5424,13.9356 17.7095,32.2661 10.0588,16.6106 -0.8165,28.8748 -17.4603,29.8841 -6.6022,13.7923 -16.5685,13.4767 -25.5755,2.4811 -7.0893,13.2584 -16.1579,15.3949 -26.0278,2.7994 -7.46,12.6493 -15.4593,12.8415 -25.7267,3.2471 -7.8418,12.386 -17.0008,11.8096 -26.3855,1.8193 -7.7683,12.5323 -15.3608,13.2477 -23.8835,0.719 -6.5345,11.5168 -16.9042,12.1801 -23.2124,-0.2196 -8.1452,9.2941 -21.4267,10.8005 -25.7568,-4.067 -6.8496,10.1993 -18.799,9.0672 -24.1031,-1.7708 -7.3949,10.9449 -20.4683,10.1691 -26.2484,-1.846 -9.4389,13.2713 -21.4894,9.9949 -27.1087,-3.8224 -16.7522,-2.7699 -19.3536,-14.34 -10.9895,-27.2418 -12.6726,-17.1766 -6.3273,-29.0467 13.1241,-33.7207"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path287" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="224"
+     x="867"
+     y="2644.9902"
+     id="text289">中科大开源镜像站</text>
+  <path
+     d="m 918.1037,1883.5889 c 6.8343,-15.5501 21.6769,-16.3635 31.0433,-2.6899 6.1242,-16.2753 21.7918,-16.9938 32.2604,-4.9489 12.5319,-11.5162 24.6138,-11.6491 31.8951,5.7847 8.5056,-10.5638 20.0666,-11.1881 27.26,1.536 17.8489,4.7708 20.4085,19.5383 7.8197,31.7949 13.053,9.4975 11.8248,23.1085 -4.0526,28.4909 -7.7009,17.6458 -20.0232,20.2464 -34.352,7.4887 -5.6012,16.9314 -15.4075,20.1477 -29.8427,9.5905 -13.5705,14.3322 -24.543,10.4407 -30.4948,-7.2542 -12.5239,10.5698 -23.6529,5.241 -27.2807,-9.5642 -17.421,-1.4814 -23.1324,-15.5795 -13.0639,-29.3123 -13.6314,-13.4209 -8.4972,-26.3094 8.8082,-30.9162"
+     fill="#fefece"
+     style="stroke:#000000;stroke-width:3"
+     id="path291" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="28px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="94"
+     x="932"
+     y="1920.9902"
+     id="text293">GitHub</text>
+  <path
+     d="m 1094.6,577 c 96.18,0 236.83,0 354.875,0 14.7556,0 29.158,0 43.0763,0 6.9591,0 13.7971,0 20.4977,0 3.3504,0 6.6663,0 9.9459,0"
+     fill="none"
+     id="install_win.bat-&gt;install_win.py"
+     style="stroke:#ff0000;stroke-width:4" />
+  <polygon
+     fill="#ff0000"
+     points="1512.9949,577 1504.9949,585 1522.9949,577 1504.9949,569 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon296" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="26px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="52"
+     x="1308"
+     y="569.13379"
+     id="text298">调用</text>
+  <path
+     d="m 1613.44,662.42 c -83.06,-5.8 -231.78,-1.22 -279.44,97.58 -41.18,85.36 -41.18,1620.64 0,1706 20.88,43.3 59.7,71.84 103.78,90.62"
+     fill="none"
+     id="步骤1-&gt;pre_config.py"
+     style="stroke:#ff0000;stroke-width:4" />
+  <polygon
+     fill="#ff0000"
+     points="1437.9991,2556.707 1427.572,2561.0974 1447.26,2560.48 1433.6087,2546.2799 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon301" />
+  <path
+     d="m 1447.2,2620.14 c -47.94,18.36 -90.88,47.58 -113.2,93.86 -32.34,67.06 -32.34,602.94 0,670 32.5,67.36 108.2,99.5 179.64,114.62"
+     fill="none"
+     id="pre_config.py-&gt;config.ini"
+     style="stroke:#0000ff;stroke-width:2" />
+  <polygon
+     fill="#0000ff"
+     points="1514.3364,3498.7678 1504.9158,3505.033 1524.14,3500.74 1508.0712,3489.3472 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon304" />
+  <path
+     d="m 1819.3953,3508.9155 c 174.3629,-23.4367 703.6158,-203.6408 858.3935,-495.5277 C 2991.7611,2421.2843 2957.1784,1526.8245 2532.9045,1008.0213 2356.821,792.70594 2012.8262,780.26169 1729.1228,783.90097"
+     fill="none"
+     id="config.ini-&gt;步骤2"
+     style="stroke:#ff0000;stroke-width:4"
+     sodipodi:nodetypes="caac" />
+  <polygon
+     fill="#ff0000"
+     points="1594.9724,783.2717 1613.44,776.42 1595.979,767.3034 1603.4598,775.7909 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon307"
+     transform="rotate(180,1671.2814,780.16048)" />
+  <path
+     d="m 1613.44,788.08 c -182.42,16.72 -769.92,70.5 -1096.4,100.4"
+     fill="none"
+     id="步骤2-&gt;origin.inc"
+     style="stroke:#0000ff;stroke-width:2" />
+  <polygon
+     fill="#0000ff"
+     points="516.458,888.5443 523.6918,879.8454 506.5,889.46 525.1569,895.7782 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon310" />
+  <path
+     d="m 401.38,945.12 c 124.64,41.56 328.58,109.54 457.28,152.44"
+     fill="none"
+     id="origin.inc-&gt;copy.inc"
+     style="stroke:#0000ff;stroke-width:2" />
+  <polygon
+     fill="#0000ff"
+     points="859.076,1097.6892 848.9522,1102.7397 868.56,1100.86 854.0255,1087.5653 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon313" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="26px"
+     lengthAdjust="spacingAndGlyphs"
+     textLength="78"
+     x="572"
+     y="995.13379"
+     id="text315">复制到</text>
+  <path
+     d="m 1194.92,1143.84 c 121.78,3.9 269.08,8.6 366.84,11.74"
+     fill="none"
+     id="copy.inc-&gt;步骤3"
+     style="stroke:#ff0000;stroke-width:4" />
+  <polygon
+     fill="#ff0000"
+     points="1562.2449,1155.5859 1553.9976,1163.3306 1572.24,1155.9 1554.5002,1147.3385 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon318" />
+  <path
+     d="m 1769.36,1172.28 c 94.32,13 235.42,32.44 317.32,43.72"
+     fill="none"
+     id="步骤3-&gt;步骤4"
+     style="stroke:#ff0000;stroke-width:4" />
+  <polygon
+     fill="#ff0000"
+     points="2086.9505,1216.0578 2077.9491,1222.9116 2096.86,1217.4 2080.0966,1207.0564 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon321" />
+  <path
+     d="m 2142.08,1247.5 c -31.56,72.76 -129.96,309.08 -170.08,515.5 -19.46,100.1 7.48,836.2 -56,916 -25.24,31.74 -63.82,49.96 -102.86,60.28"
+     fill="none"
+     id="步骤4-&gt;zhmakeindex.py"
+     style="stroke:#ff0000;stroke-width:4" />
+  <polygon
+     fill="#ff0000"
+     points="1812.9281,2739.3415 1818.7758,2729.6563 1803.22,2741.74 1822.6134,2745.1892 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon324" />
+  <path
+     d="m 1538.46,2728.98 c -116.04,-19.56 -285.64,-48.14 -407.26,-68.66"
+     fill="none"
+     id="zhmakeindex.py-&gt;ustc"
+     style="stroke:#0000ff;stroke-width:2" />
+  <polygon
+     fill="#0000ff"
+     points="1130.9216,2660.2779 1140.1372,2653.7149 1121.06,2658.62 1137.4846,2669.4935 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon327" />
+  <path
+     d="M 1019.7351,2593.193 C 1088.4151,2524.913 1233.24,2394.24 1378,2333 c 45.7,-19.32 98.58,-30.32 146.64,-36.52"
+     fill="none"
+     id="ustc-&gt;zhmakeindex.zip"
+     style="stroke:#0000ff;stroke-width:2"
+     sodipodi:nodetypes="ccc" />
+  <polygon
+     fill="#0000ff"
+     points="1524.8955,2296.4463 1517.9369,2305.367 1534.82,2295.22 1515.9748,2289.4877 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon330" />
+  <path
+     d="m 1807.52,2270.82 c 35.7,-6.48 73.92,-14.98 108.48,-25.82 52.78,-16.56 109.22,-42.08 153.66,-64.16"
+     fill="none"
+     id="zhmakeindex.zip-&gt;zhmakeindex"
+     style="stroke:#0000ff;stroke-width:2" />
+  <polygon
+     fill="#0000ff"
+     points="2070.0214,2180.6836 2066.4574,2191.4212 2078.96,2176.2 2059.2838,2177.1196 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon333" />
+  <path
+     d="m 2019.14,2120.5 c -17.78,-7.26 -34.28,-17.42 -47.14,-31.5 -99.14,-108.54 -31.7924,-266.6285 -240.4701,-351.2082 C 1522.8522,1653.2121 1599.98,1706.8 1378,1589 1236.76,1514.06 1094.76,1388.04 1025.14,1322.12"
+     fill="none"
+     id="zhmakeindex-&gt;preferences"
+     style="stroke:#0000ff;stroke-width:2"
+     sodipodi:nodetypes="cczcc" />
+  <polygon
+     fill="#0000ff"
+     points="1025.0607,1322.0573 1036.3711,1321.7825 1017.82,1315.16 1025.3354,1333.3676 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon336" />
+  <path
+     d="m 1083.62,1278.68 c 66.38,-5.5 198.1361,-1.3662 253.9961,-51.8662 88,-79.54 30.3554,-185.3401 120.1354,-262.9001 62.46,-53.96 81.1485,-73.1937 145.9685,-71.8937"
+     fill="none"
+     id="preferences-&gt;步骤5"
+     style="stroke:#ff0000;stroke-width:4"
+     sodipodi:nodetypes="cccc" />
+  <polygon
+     fill="#ff0000"
+     points="1603.8241,892.0336 1595.5983,899.8012 1613.82,892.32 1596.0565,883.8077 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon339" />
+  <path
+     d="m 1724.7024,893.83998 c 199.4033,11.91431 465.8296,12.64874 596.2117,173.38892 399.0353,491.9463 432.7442,1331.7667 142.7754,1894.9349 -117.0135,227.2599 -510.0092,384.88 -655.9029,397.2964"
+     fill="none"
+     id="步骤5-&gt;pre_preamble.py"
+     style="stroke:#ff0000;stroke-width:4"
+     sodipodi:nodetypes="caac" />
+  <polygon
+     fill="#ff0000"
+     points="1525.2955,3349.2937 1516.3748,3356.2523 1535.22,3350.52 1518.3369,3340.373 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon342"
+     transform="rotate(161.85687,1670.7535,3377.4417)" />
+  <path
+     d="m 1535.84,3342.24 c -54.04,-9.5 -189.204,-39.1438 -246.9776,-107.9523 -36.1704,-43.0791 -5.8113,-119.1755 -39.8105,-163.988 -12.1723,-16.0437 -19.0794,-22.0809 -52.7022,-29.5391 -0.5254,-0.1165 -1.051,-0.2318 -1.5768,-0.3458"
+     fill="none"
+     id="pre_preamble.py-&gt;导言"
+     style="stroke:#0000ff;stroke-width:2"
+     sodipodi:nodetypes="caasc" />
+  <polygon
+     fill="#0000ff"
+     points="1204.5457,3042.5344 1214.0596,3036.4119 1194.7729,3040.4148 1210.6682,3052.0484 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon345" />
+  <path
+     d="m 1067.5,3339.68 c 64.06,34.12 136.8017,92.3596 220.8617,119.3996 70.42,22.66 168.7655,54.5521 236.2055,64.9121"
+     fill="none"
+     id="preamble.tex&lt;-config.ini"
+     style="stroke:#008000;stroke-width:2"
+     sodipodi:nodetypes="ccc" />
+  <polygon
+     fill="#ffffff"
+     points="1065.4327,3338.573 1058.6806,3325.8289 1044.32,3327.16 1051.072,3339.904 "
+     style="stroke:#008000;stroke-width:2"
+     id="polygon348" />
+  <path
+     d="m 1115.44,3274.98 c 119.7,-14.28 294.14,-35.06 415.06,-49.48"
+     fill="none"
+     id="preamble.tex&lt;-pre_preamble.tex"
+     style="stroke:#008000;stroke-width:2" />
+  <polygon
+     fill="#008000"
+     points="1113.0905,3275.253 1100.2263,3268.733 1089.26,3278.1 1102.1243,3284.62 "
+     style="stroke:#008000;stroke-width:2"
+     id="polygon351" />
+  <path
+     d="m 1171.56,3161.4 c 43.24,10.94 80.4403,69.3887 104.0557,107.0271 39.8862,63.5708 78.2175,91.8018 121.0991,129.812 41,35.2 76.8252,77.7209 127.5852,91.1609"
+     fill="none"
+     id="preamble_english.tex&lt;-config.ini"
+     style="stroke:#008000;stroke-width:2"
+     sodipodi:nodetypes="cscc" />
+  <polygon
+     fill="#ffffff"
+     points="1169.5571,3160.9672 1159.561,3150.5712 1146.12,3155.8 1156.1162,3166.196 "
+     style="stroke:#008000;stroke-width:2"
+     id="polygon354" />
+  <path
+     d="m 1172.6,3126.16 c 93.86,-11.18 206.68,-24.62 301.02,-35.88"
+     fill="none"
+     id="preamble_english.tex&lt;-pre_preamble_english.tex"
+     style="stroke:#008000;stroke-width:2" />
+  <polygon
+     fill="#008000"
+     points="1170.4905,3126.413 1157.6263,3119.893 1146.66,3129.26 1159.5243,3135.78 "
+     style="stroke:#008000;stroke-width:2"
+     id="polygon357" />
+  <polygon
+     fill="#ff0000"
+     points="1611.8703,1561.6405 1608.3749,1572.4008 1620.78,1557.1 1601.11,1558.1452 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon360" />
+  <path
+     d="m 1613.96,1536.88 c -82.4,6.3 -208.0757,26.6985 -257.7357,129.6585 -32.44,67.26 -23.1739,285.3455 9.2661,352.6055 35.1,72.76 91.6696,87.836 168.9696,96.156"
+     fill="none"
+     id="步骤6-&gt;mathmacros.py"
+     style="stroke:#ff0000;stroke-width:4"
+     sodipodi:nodetypes="cccc" />
+  <polygon
+     fill="#ff0000"
+     points="1534.8474,2115.3476 1526.1074,2122.5318 1544.8,2116.32 1527.6632,2106.6076 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon363" />
+  <path
+     d="M 1544.42,2123.6 C 1348.16,2132 959.32,2127.62 668,1991 514.72,1919.12 382.8,1760.64 324.66,1683.26"
+     fill="none"
+     id="mathmacros.py-&gt;MathMacros.lyx"
+     style="stroke:#0000ff;stroke-width:2" />
+  <polygon
+     fill="#0000ff"
+     points="324.588,1683.1639 335.7815,1684.8087 318.62,1675.14 322.9432,1694.3574 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon366" />
+  <path
+     d="m 416.08,1639 c 119.14,0 299.46,0 423.3,0"
+     fill="none"
+     id="MathMacros.lyx-&gt;MathMacros.tex"
+     style="stroke:#0000ff;stroke-width:2" />
+  <polygon
+     fill="#0000ff"
+     points="839.7,1639 831.7,1647 849.7,1639 831.7,1631 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon369" />
+  <path
+     d="m 1056.98,1602.74 c 78.72,-36.34 206.14,-91.6 321.02,-125.74 76,-22.58 165.92,-38.26 225.5,-47.18"
+     fill="none"
+     id="MathMacros.tex-&gt;步骤7"
+     style="stroke:#ff0000;stroke-width:4" />
+  <polygon
+     fill="#ff0000"
+     points="1603.6269,1429.7982 1596.879,1438.8793 1613.52,1428.34 1594.5458,1423.0503 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon372" />
+  <path
+     d="m 1613.44,1414.42 c -130.3318,-21.6539 -146.9995,-8.5819 -194.6595,90.2181 -60.2,124.82 64.6704,211.8383 147.7795,286.2019"
+     fill="none"
+     id="步骤7-&gt;install_ipe.py"
+     style="stroke:#ff0000;stroke-width:4"
+     sodipodi:nodetypes="ccc" />
+  <polygon
+     fill="#ff0000"
+     points="1566.6538,1790.8623 1556.1228,1794.9971 1575.82,1794.86 1562.5191,1780.3312 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon375" />
+  <path
+     d="m 1563.56,1843.26 c -136.2,15.84 -370.66,43.1 -496.6,57.74"
+     fill="none"
+     id="install_ipe.py-&gt;GitHub"
+     style="stroke:#0000ff;stroke-width:2" />
+  <polygon
+     fill="#0000ff"
+     points="1066.5313,1901.0299 1073.5403,1892.1488 1056.6,1902.2 1075.4124,1908.0389 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon378" />
+  <path
+     d="m 1056.6,1917.82 c 106.18,9.56 302.36,27.24 444.12,40.02"
+     fill="none"
+     id="GitHub-&gt;ipe.zip"
+     style="stroke:#0000ff;stroke-width:2" />
+  <polygon
+     fill="#0000ff"
+     points="1500.8818,1957.8269 1492.1847,1965.063 1510.84,1958.74 1493.6457,1949.1299 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon381" />
+  <path
+     d="m 1831.18,1949.88 c 88.2,-12.88 193.1,-28.22 258.34,-37.74"
+     fill="none"
+     id="ipe.zip-&gt;ipe"
+     style="stroke:#0000ff;stroke-width:2" />
+  <polygon
+     fill="#0000ff"
+     points="2089.7469,1912.1182 2082.999,1921.1993 2099.64,1910.66 2080.6658,1905.3703 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon384" />
+  <path
+     d="M 2124.32,1863.2 C 2085.2,1805.3 2013.9,1693.38 1972,1589 c -38.54,-96.04 17.78,-153.42 -56,-226 -46.58,-45.82 -119.0061,-34.7712 -173.6461,-36.2912"
+     fill="none"
+     id="ipe-&gt;步骤8"
+     style="stroke:#ff0000;stroke-width:4"
+     sodipodi:nodetypes="cccc" />
+  <polygon
+     fill="#ff0000"
+     points="1746.1545,1296.5297 1728.02,1304.22 1745.8802,1312.5274 1738.0185,1304.3914 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon387"
+     transform="translate(4.3354,22.3174)" />
+  <path
+     d="m 1728,1285 c 56.52,0.72 142.6,17.9 188,-36 126.52,-150.22 -17.52,-699.88 56,-882 27.4,-67.86 85.44,-129.68 128.26,-168.82"
+     fill="none"
+     id="步骤8-&gt;ipe.py"
+     style="stroke:#ff0000;stroke-width:4"
+     sodipodi:nodetypes="cccc" />
+  <polygon
+     fill="#ff0000"
+     points="2100.6413,197.8454 2100.0706,209.1447 2108.06,191.14 2089.342,197.2747 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon390" />
+  <path
+     d="m 2215.74,155 c 75.12,0 204.82,0 292.3,0"
+     fill="none"
+     id="ipe.py-&gt;every.ipe"
+     style="stroke:#0000ff;stroke-width:2" />
+  <polygon
+     fill="#0000ff"
+     points="2508.48,155 2500.48,163 2518.48,155 2500.48,147 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon393" />
+  <path
+     d="m 2683.78,155 c 47.92,0 110.26,0 167.38,0"
+     fill="none"
+     id="every.ipe-&gt;corresponding.pdf"
+     style="stroke:#0000ff;stroke-width:2" />
+  <polygon
+     fill="#0000ff"
+     points="2851.78,155 2843.78,163 2861.78,155 2843.78,147 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon396" />
+  <path
+     d="m 2877.1,191.1 c -3.5836,93.65336 -8.9281,205.53475 -32.5814,267.87263 -23.6534,62.33787 -5.1871,51.726 -166.6071,227.936 -161.42,176.21 -452.6438,210.10261 -602.8094,259.55304 C 1924.9364,995.9121 1794.18,1014 1738.24,1014.7"
+     fill="none"
+     id="corresponding.pdf-&gt;步骤9"
+     style="stroke:#ff0000;stroke-width:4"
+     sodipodi:nodetypes="czzzc" />
+  <polygon
+     fill="#ff0000"
+     points="1738.06,1014.72 1746.06,1006.72 1728.06,1014.72 1746.06,1022.72 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon399" />
+  <path
+     d="m 1728,989 c 55.66,-0.16 104.2993,-78.20772 145.2412,-128.12388 54.8287,-66.84698 59.8337,-89.27398 130.2137,-224.31398 28.22,-54.14 40.6937,-103.15819 88.3051,-155.10214"
+     fill="none"
+     id="步骤9-&gt;LearningMath.lyx"
+     style="stroke:#ff0000;stroke-width:4"
+     sodipodi:nodetypes="cacc" />
+  <polygon
+     fill="#ff0000"
+     points="2091.8311,481.4253 2090.4362,492.6527 2099.72,475.28 2080.6037,480.0305 "
+     style="stroke:#ff0000;stroke-width:4"
+     id="polygon402" />
+  <path
+     d="m 2288.32,439 c 51.38,0 110.46,0 163.22,0"
+     fill="none"
+     id="LearningMath.lyx-&gt;LearningMath.pdf"
+     style="stroke:#0000ff;stroke-width:2" />
+  <polygon
+     fill="#0000ff"
+     points="2452,439 2444,447 2462,439 2444,431 "
+     style="stroke:#0000ff;stroke-width:2"
+     id="polygon405" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1">
+    <g
+       id="g443"
+       transform="translate(14)"
+       style="width:3210px;height:3586px">
+      <path
+         d="m 880.10032,2989.6766 c -86.77133,-186.2261 -80.36948,-263.8423 -78.2879,-362.3041 2.08158,-98.4619 -6.2026,-118.0557 101.44739,-356.6407 107.64999,-238.585 102.74239,-215.2003 371.40049,-506.0146 81.5202,-84.8208 223.7104,-155.0806 323.21,-203.0767"
+         fill="none"
+         id="导言-&gt;步骤6"
+         style="stroke:#ff0000;stroke-width:4"
+         sodipodi:nodetypes="czzcc" />
+    </g>
+  </g>
+</svg>

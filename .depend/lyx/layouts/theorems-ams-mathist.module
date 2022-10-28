@@ -1,0 +1,35 @@
+#\DeclareLyXModule{Theorems (mathist)}
+#DescriptionBegin
+#Defines theorem environments and the proof environment using the extended 
+#AMS machinery. Both numbered and unnumbered types are provided. By default, 
+#the theorems are numbered consecutively throughout the document. This can be
+#changed by loading one of the 'Theorems (Numbered by ...)' modules.
+#Attention: You should define the environments 
+#(Theorem,Lemma,Proposition,Corollary,Definition,Example,
+#Note,Conjecture,Fact,Problem,Exercise,Claim) 
+#by yourself!
+#DescriptionEnd
+#Excludes: theorems-std | theorems-starred | theorems-ams
+#Category: theorems
+
+# Original Author : David L. Johnson <dlj0@lehigh.edu>
+# Probably broken by Jean-Marc Lasgouttes <Jean-Marc.Lasgouttes@inria.fr>
+# modified and modularized by Emmanuel GUREGHIAN <gureghia@boston.bertin.fr>
+# Tinkered with Sep. '07 by Paul Rubin <rubin@msu.edu>
+# Modularized Jan 08 by Richard Heck <rgheck@comcast.net>
+# modified by mathist <mathist@139.com>
+
+Format 66
+
+Requires	amsmath,amsthm
+
+Counter theorem
+	Within         chapter
+End
+
+Input theorems-order-mathist.inc
+Input theorems-ams-mathist.inc
+Input theorems-starred-mathist.inc
+Input theorems-proof-mathist.inc
+Input theorems-proof-inset-mathist.inc
+Input other-mathist.inc

@@ -1,0 +1,40 @@
+#\DeclareLyXModule{Abstract-mathist}
+#DescriptionBegin
+#Collect abstracts. You should define the environment
+#"Abstract_mathist" by yourself.
+#DescriptionEnd
+# Author : mathist
+
+Format 66
+
+Provides stdinsets 1
+
+InsetLayout Flex:Abstract_mathist
+        LyXType     custom
+        LatexName   Abstract_mathist
+        LatexType   Environment
+        Decoration  classic
+        Argument 1
+                LabelString     "Title"
+                Mandatory       1
+        EndArgument
+        Argument 2
+                LabelString     "Author(s)"
+                Mandatory       1
+        EndArgument
+        Argument 3
+                LabelString     "Date"
+                Mandatory       1
+        EndArgument
+        Argument 4
+                LabelString     "Citation"
+                Mandatory       1
+        EndArgument
+        Argument 5
+                LabelString     "Keyword(s)"
+                Mandatory       1
+        EndArgument
+        BgColor background
+        MultiPar    true
+        LabelString Abstract
+End
