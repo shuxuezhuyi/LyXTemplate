@@ -22,6 +22,7 @@ try:
     LyX = os.path.dirname(subprocess.check_output('where lyx').decode().splitlines()[0])
 except subprocess.CalledProcessError:
     LyX = os.path.expanduser(r'~\AppData\Local\LyX 2.3\bin')
+if os.path.isfile(LyX + r'\lyx.exe') == False: LyX = r'C:\Program Files\LyX 2.3\bin'
 while os.path.isfile(LyX + r'\lyx.exe') == False:
     print('在 ' + LyX + ' 中找不到 lyx.exe !')
     LyX = input(r'请输入 lyx.exe 所在的文件夹(例如 D:\program\LyX\bin ), 按回车结束.' + '\n')

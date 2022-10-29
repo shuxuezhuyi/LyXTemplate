@@ -30,9 +30,9 @@
 
 #### 在 Windows 中编译
 
-1. 确保已安装 python3 (记得勾选"Add Python 3.x to PATH"), texlive, lyx. 注意: texlive 务必完整安装, 并在安装 lyx 之前安装. 请确保 latex.exe 所在路径已经被加到 PATH 中; 要确认这一点, 请在终端里运行 `latex --version`, 期待的输出是以 pdfTeX 开头的几行字.
+1. 确保已安装 python3 (记得勾选"Add Python 3.x to PATH"), texlive, lyx. 注意: texlive 务必完整安装, 并在安装 lyx 之前安装. 请确保 latex.exe 所在路径已经被加到 PATH 中; 要确认这一点, 请在 cmd 里运行 `latex --version`, 期待的输出是以 pdfTeX 开头的几行字.
 
-如果你曾经安装 python, 请确保本次编译时命令行的 python 命令指向 python3. 要确认这一点, 请在终端里运行 `python --version`; 期待的输出是 `Python 3.x.x`, 例如 `Python 3.10.2`. 如果 PATH 之前没设置对, 请手动改过来. 在文件浏览器的地址栏中输入
+如果你曾经安装 python, 请确保本次编译时命令行的 python 命令指向 python3. 要确认这一点, 请在 cmd 里运行 `python --version`; 期待的输出是 `Python 3.x.x`, 例如 `Python 3.10.2`. 如果 PATH 之前没设置对, 请手动改过来. 在文件浏览器的地址栏中输入
 `控制面板\用户帐户\用户帐户`
 按回车键后, 左侧有个入口是`更改我的环境变量`, 点进去之后修改即可.
 
