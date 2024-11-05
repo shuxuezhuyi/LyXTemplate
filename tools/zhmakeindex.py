@@ -35,7 +35,7 @@ ist = here + '/external/zhmakeindex/examples/zh.ist'
 zhmakeindex = r'\index_command "' + bin + r' -c -q -s ' + ist + '"\n'
 
 if system == 'Linux': preferences = os.path.expanduser('~/.lyx/preferences')
-elif system == 'Windows': preferences = os.path.expanduser(r'~\AppData\Roaming\LyX2.3\preferences') # 这里假设 LyX 2.3
+elif system == 'Windows': preferences = os.path.expanduser(r'~\AppData\Roaming\LyX2.4\preferences') # 这里假设 LyX 2.4
 
 if os.path.isfile(preferences):
     with open(preferences, 'r', encoding='utf-8') as f:
@@ -52,7 +52,7 @@ if os.path.isfile(preferences):
     if index_command:
         write_lines.append(zhmakeindex)
 else:
-    write_lines = ['Format 24\n'] # 这里假设 LyX 2.3
+    write_lines = ['Format 38\n'] # 这里假设 LyX 2.4
     write_lines.append(zhmakeindex)
 with open(preferences, 'w', encoding='utf-8') as f:
     f.writelines(write_lines)

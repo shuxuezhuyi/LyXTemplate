@@ -13,7 +13,7 @@ os.system('python -tt ' + '"' + here + '/tools/pre_config.py"')
 print(r'已生成 config.ini.')
 
 depend = here + '/.depend/lyx/layouts'
-layouts = os.path.expanduser(r'~\AppData\Roaming\LyX2.3\layouts') # 这里假设 LyX 2.3
+layouts = os.path.expanduser(r'~\AppData\Roaming\LyX2.4\layouts') # 这里假设 LyX 2.4
 for file in os.listdir(depend):
     shutil.copy(depend + '/' + file , layouts)
 print('已复制 layout 文件.')
@@ -21,14 +21,14 @@ print('已复制 layout 文件.')
 try: 
     LyX = os.path.dirname(subprocess.check_output('where lyx').decode().splitlines()[0])
 except subprocess.CalledProcessError:
-    LyX = os.path.expanduser(r'~\AppData\Local\LyX 2.3\bin')
+    LyX = os.path.expanduser(r'~\AppData\Local\Programs\LyX 2.4\bin') # 这里假设 LyX 2.4
 if os.path.isfile(LyX + r'\lyx.exe') == False: LyX = r'C:\Program Files\LyX 2.3\bin'
 while os.path.isfile(LyX + r'\lyx.exe') == False:
     print('在 ' + LyX + ' 中找不到 lyx.exe !')
     LyX = input(r'请输入 lyx.exe 所在的文件夹(例如 D:\program\LyX\bin ), 按回车结束.' + '\n')
 print('lyx.exe 在 ' + LyX + ' 中.')
 
-os.chdir(os.path.expanduser(r'~\AppData\Roaming\LyX2.3')) # 这里假设 LyX 2.3
+os.chdir(os.path.expanduser(r'~\AppData\Roaming\LyX2.4')) # 这里假设 LyX 2.4
 python2 = '"' + os.path.dirname(LyX) + r'\Python\python.exe"'
 subprocess.run(python2 + ' -tt "' + os.path.dirname(LyX) + r'\Resources\configure.py"' + ' --binary-dir="' + LyX + r'\"', check = True)
 os.chdir(here)
@@ -46,7 +46,7 @@ subprocess.run(LyX + r'\lyx.exe -e xetex ' + mathmacros, check = True)
 subprocess.run('python -tt ' + '"' + here + '/tools/mathmacros.py"', check = True)
 print(r'已生成 MathMacros.tex.')
 
-# 安装 ipe-7.2.26
+# 安装 ipe-7.2.29
 subprocess.run('python -tt ' + '"' + here + '/tools/install_ipe.py"', check = True)
 
 # 把本项目中所有 ipe 文档都转换为对应的 pdf 文档

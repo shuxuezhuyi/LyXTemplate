@@ -2,15 +2,15 @@
 
 ### 本项目使用的工具
 
-主要用 LyX 2.3.6.1; 项目地址是 http://www.lyx.org/ . 建议使用 2.3.x 的最新版本. 你可以在 https://mirrors6.tuna.tsinghua.edu.cn/lyx/bin/ 里面找到历代 LyX 的安装包, 例如 LyX 2.3.6.1 的64位安装包是 https://mirrors6.tuna.tsinghua.edu.cn/lyx/bin/2.3.6/LyX-2361-Installer-3-x64.exe . 注意: 清华大学开源镜像站同时支持 ipv4 与 ipv6, 但本文提供的链接只写了 ipv6 的版本; 如果你的网络不支持 ipv6, 请把链接中的 mirrors6 改成 mirrors.
+主要用 LyX 2.4.2; 项目地址是 http://www.lyx.org/ . 建议使用 2.4.x 的最新版本. 你可以在 https://mirrors6.tuna.tsinghua.edu.cn/lyx/bin/ 里面找到历代 LyX 的安装包, 例如 LyX 2.4.2 的64位安装包是 https://mirrors.tuna.tsinghua.edu.cn/lyx/bin/2.4.2/LyX-242-Installer-1-x64.exe .
 
-绘图用 Ipe 7.2.26; 项目地址是 http://ipe.otfried.org/ . 建议使用 7.2.x 的最新版本. 本项目的Windows安装脚本 tools/install_ipe.py 会从 GitHub 下载 Ipe 并解压到 tools/ipe 中, 里面的 bin/ipe.exe 就是 Ipe 主程序, 可以用它来编辑 ipe 文档.
+绘图用 Ipe 7.2.29; 项目地址是 http://ipe.otfried.org/ . 建议使用 7.2.x 的最新版本. 本项目的Windows安装脚本 tools/install_ipe.py 会从 GitHub 下载 Ipe 并解压到 tools/ipe 中, 里面的 bin/ipe.exe 就是 Ipe 主程序, 可以用它来编辑 ipe 文档.
 
-使用 TeXLive 2022 生成 pdf 文档; 项目地址是 https://tug.org/texlive/ . 建议使用最新版. 你可以从 https://mirrors6.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive.iso 下载到安装镜像.
+使用 TeXLive 2024 生成 pdf 文档; 项目地址是 https://tug.org/texlive/ . 建议使用最新版. 你可以从 https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive.iso 下载到安装镜像.
 
 使用 zhmakeindex 1.2 生成中文索引; 项目地址是 https://github.com/leo-liu/zhmakeindex . 建议使用最新版. 本项目的安装脚本 tools/zhmakeindex.py 会从中科大开源镜像站下载 zhmakeindex 并解压到 tools/zhmakeindex 中.
 
-使用 Biber 2.16 与 Biblatex 3.16 生成参考文献; 项目地址是 https://github.com/plk/biber . 它们都包含在 TeXLive 中.
+使用 Biber 2.19 与 Biblatex 3.19 生成参考文献; 项目地址是 https://github.com/plk/biber . 它们都包含在 TeXLive 中.
 
 使用 showlabels 宏包以显示交叉引用的标签名; 你可以在 preamble.tex 中删除它.
 
@@ -40,7 +40,7 @@
 
 ![install.svg](/picture/install_win.svg)
 
-3. 目前以下脚本都假定 LyX 的版本号是 2.3, 如果你要用其它版本的 LyX 编译, 请手动修改它们: install_win.py 和 tools/zhmakeindex.py .
+3. 目前以下脚本都假定 LyX 的版本号是 2.4, 如果你要用其它版本的 LyX 编译, 请手动修改它们: install_win.py 和 tools/zhmakeindex.py .
 
 4. install_win.py 是按照仅运行一次的要求编写的, 平时请不要用它来编译. 平时请用脚本 ipe.bat (双击运行) 把 ipe 文档转换为 pdf 文档, 然后用 LyX 打开主文档 LearningMath.lyx, 使用 **XeTeX** 方式导出对应的 pdf 文档.
 
