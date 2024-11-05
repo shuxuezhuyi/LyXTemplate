@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties false
@@ -18,11 +18,11 @@
 theorems-ams-mathist
 abstract-mathist
 \end_modules
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \language chinese-simplified
 \language_package none
 \inputencoding utf8-plain
-\fontencoding global
+\fontencoding auto
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -30,7 +30,9 @@ abstract-mathist
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -76,7 +78,9 @@ abstract-mathist
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -96,11 +100,16 @@ abstract-mathist
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -119,19 +128,41 @@ Smith:
 \end_layout
 
 \begin_layout Quote
-``Why, Mr.
- Anderson? Why, why, why? Why do you do it? Why? Why get up? Why keep fighting?
- Do you believe you're fighting for something? For more than your survival?
- Can you tell me what it is? Do you even know? Is it freedom or truth?!
- Perhaps peace?! Could it be for love?! Illusions, Mr.
- Anderson, vagaries of perception! Temporary constructs of a feeble human
- intellect trying desperately to justify an existence that is without meaning
- or purpose! And all of them as artificial as the Matrix itself, although
- only a human mind could invent something as insipid as love! You must be
- able to see it, Mr.
- Anderson! You must know it by now! You can't win! It's pointless to keep
- fighting! Why, Mr.
- Anderson?! Why?! WHY DO YOU PERSIST?!''
+``Why,
+ Mr.
+ Anderson?
+ Why,
+ why,
+ why?
+ Why do you do it?
+ Why?
+ Why get up?
+ Why keep fighting?
+ Do you believe you're fighting for something?
+ For more than your survival?
+ Can you tell me what it is?
+ Do you even know?
+ Is it freedom or truth?!
+ Perhaps peace?!
+ Could it be for love?!
+ Illusions,
+ Mr.
+ Anderson,
+ vagaries of perception!
+ Temporary constructs of a feeble human intellect trying desperately to justify an existence that is without meaning or purpose!
+ And all of them as artificial as the Matrix itself,
+ although only a human mind could invent something as insipid as love!
+ You must be able to see it,
+ Mr.
+ Anderson!
+ You must know it by now!
+ You can't win!
+ It's pointless to keep fighting!
+ Why,
+ Mr.
+ Anderson?!
+ Why?!
+ WHY DO YOU PERSIST?!''
 \end_layout
 
 \begin_layout Standard
@@ -161,7 +192,9 @@ status open
 
 \end_inset
 
-当一个职业数学家发现他自己在写有关数学的东西的时候，他会很悲伤的。
+当一个职业数学家发现他自己在写有关数学的东西的时候，
+他会很悲伤的。
+
 \end_layout
 
 \begin_layout Standard
@@ -170,6 +203,7 @@ status open
 
 \begin_layout Plain Layout
 显然。
+
 \end_layout
 
 \end_inset
@@ -179,6 +213,7 @@ status open
 
 \begin_layout Corollary
 哈代很悲伤。
+
 \end_layout
 
 \begin_layout Standard
@@ -196,6 +231,7 @@ status open
 \end_inset
 
 无所可证。
+
 \end_layout
 
 \end_inset
@@ -208,17 +244,46 @@ status open
 \end_layout
 
 \begin_layout Standard
-记得有人说过，现在的小孩子，怎么都这么脆弱矫情，眼界格局小之又小。我觉得呢，人各有各的经历，问题不在于用归纳法得到山的那边依然是山，问题在于你能不能走到山的那边
-看一看；哪一天你累了，你就不得不用归纳法了。 
+记得有人说过，
+现在的小孩子，
+怎么都这么脆弱矫情，
+眼界格局小之又小。
+我觉得呢，
+人各有各的经历，
+问题不在于用归纳法得到山的那边依然是山，
+问题在于你能不能走到山的那边看一看；
+哪一天你累了，
+你就不得不用归纳法了。
+ 
 \end_layout
 
 \begin_layout Standard
-日出日落，月圆月缺，风云聚散，寒暑往来，看似变化，实则不变。这是人类很容易理解的事情，因为周期比较短。
+日出日落，
+月圆月缺，
+风云聚散，
+寒暑往来，
+看似变化，
+实则不变。
+这是人类很容易理解的事情，
+因为周期比较短。
+
 \end_layout
 
 \begin_layout Standard
-另一方面，凤凰树的寿命一般不超过一百年，这怎么理解呢？世间有很多事情一直在变化，但我们很难看得出来。直到某日，大树轰然倒地，你到现场去看，也看不明白它为何会在阵
-风中倒下：大树总是看上去很可靠，似乎只有雷劈虫蛀才好理解，事实却是树也会老，加上树大招风。
+另一方面，
+凤凰树的寿命一般不超过一百年，
+这怎么理解呢？
+世间有很多事情一直在变化，
+但我们很难看得出来。
+直到某日，
+大树轰然倒地，
+你到现场去看，
+也看不明白它为何会在阵风中倒下：
+大树总是看上去很可靠，
+似乎只有雷劈虫蛀才好理解，
+事实却是树也会老，
+加上树大招风。
+
 \end_layout
 
 \begin_layout Definition
@@ -242,7 +307,8 @@ status open
 \series bold
 ideal
 \series default
-)，如果
+)，
+如果
 \begin_inset Formula $A\mathfrak{a}\subset\mathfrak{a}$
 \end_inset
 
@@ -254,8 +320,25 @@ ideal
 \end_layout
 
 \begin_layout Standard
-樊迟请学稼，子曰：“吾不如老农。”请学为圃，曰：“吾不如老圃。”樊迟出，子曰：“小人哉樊须也！上好礼，则民莫敢不敬；上好义，则民莫敢不服；上好信，则民莫敢不用情
-。夫如是，则四方之民襁负其子而至矣，焉用稼？”
+樊迟请学稼，
+子曰：
+“吾不如老农。
+”请学为圃，
+曰：
+“吾不如老圃。
+”樊迟出，
+子曰：
+“小人哉樊须也！
+上好礼，
+则民莫敢不敬；
+上好义，
+则民莫敢不服；
+上好信，
+则民莫敢不用情。
+夫如是，
+则四方之民襁负其子而至矣，
+焉用稼？
+”
 \end_layout
 
 \begin_layout Example
@@ -268,7 +351,13 @@ status open
 
 \end_inset
 
-曾经小小的我对星空多么迷恋，可是长大了，迷失于浮华的人世间，很少仰望星空，也看不清星空了，因为我近视了。
+曾经小小的我对星空多么迷恋，
+可是长大了，
+迷失于浮华的人世间，
+很少仰望星空，
+也看不清星空了，
+因为我近视了。
+
 \end_layout
 
 \begin_layout Section
@@ -276,11 +365,27 @@ NIH综合征
 \end_layout
 
 \begin_layout Standard
-软件开发人员经常会受到NIH综合征的影响。在查看别人编写的软件解决方案时，他认为自己完全可以做得更好。也许他真的能更为痛快利落地完成这项工作，但他并不知道别的开
-发人员当时面临的限制条件。他们可能迫于时间或预算的压力，于是，只能集中精力处理这个解决方案中的某些特定部分。 NIH综合征的特点就是人们会为了证明自己能够提供更
-加卓越的解决方案而放弃其他开发人员已经完成的工作。这种狂妄自大的行径说明此人并无兴趣去维护他人竭尽全力提供的最佳工作成果，也不想以此为基础去挑战新的高度。这不仅
-是个自私自利的做法，还浪费了大量宝贵时间，而这些时间其实完全可以用来提供其他解决方案。更糟的是，新的解决方案有时候只是稍作了一些改进，或根本没有本质区别，从而使
-得这个问题变得更糟。——《Linux/Unix设计思想》
+软件开发人员经常会受到NIH综合征的影响。
+在查看别人编写的软件解决方案时，
+他认为自己完全可以做得更好。
+也许他真的能更为痛快利落地完成这项工作，
+但他并不知道别的开发人员当时面临的限制条件。
+他们可能迫于时间或预算的压力，
+于是，
+只能集中精力处理这个解决方案中的某些特定部分。
+ NIH综合征的特点就是人们会为了证明自己能够提供更加卓越的解决方案而放弃其他开发人员已经完成的工作。
+这种狂妄自大的行径说明此人并无兴趣去维护他人竭尽全力提供的最佳工作成果，
+也不想以此为基础去挑战新的高度。
+这不仅是个自私自利的做法，
+还浪费了大量宝贵时间，
+而这些时间其实完全可以用来提供其他解决方案。
+更糟的是，
+新的解决方案有时候只是稍作了一些改进，
+或根本没有本质区别，
+从而使得这个问题变得更糟。
+—
+—
+《Linux/Unix设计思想》
 \end_layout
 
 \begin_layout Theorem
@@ -293,7 +398,12 @@ status open
 
 \end_inset
 
-是以聖人常善救人，故無棄人；常善救物，故無棄物，是謂襲明。
+是以聖人常善救人，
+故無棄人；
+常善救物，
+故無棄物，
+是謂襲明。
+
 \end_layout
 
 \begin_layout Section
@@ -301,10 +411,13 @@ status open
 \end_layout
 
 \begin_layout Standard
-“哲学家们只是用不同的方式解释世界，而问题在于改变世界。”参见第 
+“哲学家们只是用不同的方式解释世界，
+而问题在于改变世界。
+”参见第 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "fig:70_i_see_nothing"
+nolink "false"
 
 \end_inset
 
@@ -312,6 +425,7 @@ reference "fig:70_i_see_nothing"
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:70_i_see_nothing"
+nolink "false"
 
 \end_inset
 
@@ -320,6 +434,8 @@ reference "fig:70_i_see_nothing"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement document
+alignment document
 wide false
 sideways false
 status collapsed
@@ -346,7 +462,9 @@ name "fig:70_i_see_nothing"
 
 \end_inset
 
-这个世界不是用公式堆起来的。这幅漫画是全玄鴻的作品，以CC BY-NC 3.0许可协议发布在 
+这个世界不是用公式堆起来的。
+这幅漫画是全玄鴻的作品，
+以CC BY-NC 3.0许可协议发布在 
 \begin_inset Flex URL
 status collapsed
 
@@ -358,6 +476,7 @@ https://abstrusegoose.com/275
 \end_inset
 
  上。
+
 \end_layout
 
 \end_inset
@@ -380,7 +499,8 @@ John von Neumann
 
 \end_inset
 
-Young man, in mathematics you don't understand things.
+Young man,
+ in mathematics you don't understand things.
  You just get used to them.
 \end_layout
 
@@ -447,7 +567,11 @@ literal "false"
 
 \end_deeper
 \begin_layout Enumerate
-四个基本概念: 集合, 函数, 关系, 二元运算
+四个基本概念:
+ 集合,
+ 函数,
+ 关系,
+ 二元运算
 \end_layout
 
 \begin_layout Enumerate
@@ -460,7 +584,11 @@ literal "false"
 
 \begin_deeper
 \begin_layout Description
-解方程式 线性方程, 多项式方程, 多变元的多项式方程, 丢番图方程, 微分方程
+解方程式 线性方程,
+ 多项式方程,
+ 多变元的多项式方程,
+ 丢番图方程,
+ 微分方程
 \end_layout
 
 \begin_layout Description
@@ -468,7 +596,11 @@ literal "false"
 \end_layout
 
 \begin_layout Description
-推广 弱化假设和强化结论, 证明一个更抽象的结果, 鉴别出特征性质, 重新陈述以后再推广, 更高的维数和多个变元
+推广 弱化假设和强化结论,
+ 证明一个更抽象的结果,
+ 鉴别出特征性质,
+ 重新陈述以后再推广,
+ 更高的维数和多个变元
 \end_layout
 
 \begin_layout Description
@@ -480,7 +612,10 @@ literal "false"
 \end_layout
 
 \begin_layout Description
-计数与量度 准确计数, 估计, 平均, 极值问题
+计数与量度 准确计数,
+ 估计,
+ 平均,
+ 极值问题
 \end_layout
 
 \begin_layout Description
@@ -488,7 +623,9 @@ literal "false"
 \end_layout
 
 \begin_layout Description
-利用不完全严格的论证 有条件的结果, 数值证据, ``不合法''的计算
+利用不完全严格的论证 有条件的结果,
+ 数值证据,
+ ``不合法''的计算
 \end_layout
 
 \begin_layout Description
